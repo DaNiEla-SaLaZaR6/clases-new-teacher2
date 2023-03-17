@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./quantum-gradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.prin1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor{
+    height: 60%;
+    width: 30%;
+    border: solid 1px aliceblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(20, 10, 20, 0.301);
+
+}
+h1{
+    font-size: 40px;
+    margin: 5px;
+    color: aliceblue;
+}
+.primero{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+.segundo{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+.tercero{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+.cuarto{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+input{
+    height: 40%;
+    color: blueviolet;
+    border: solid 1px violet;
+ 
+}
+.boton{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 50%;
+    width: 80%;
+    color: blueviolet;
+    border: solid 1px violet;
+   
+}
+button:hover{
+    background-color: rgba(238, 130, 238, 0.411);
+    color: aliceblue;
+}
+
+.divtabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    
+}
+table{
+    width: 50%;
+    height: 20%;
+    border: solid 1px aliceblue;
+    margin: 10px;
+    background-color: rgba(20, 10, 20, 0.301);
+
+}
+th{
+    border: solid 1px aliceblue;
+    color: aliceblue;
+
+}
+
+td{
+    border: solid 1px aliceblue;
+    color: aliceblue;
+}
